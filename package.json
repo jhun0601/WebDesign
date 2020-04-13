@@ -1,7 +1,7 @@
 {
-  "name": "WebDesign",
+  "name": "webdesign",
   "version": "1.0.0",
-  "description": "",
+  "description": "webdesign",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,11 +10,20 @@
     "type": "git",
     "url": "git+https://github.com/jhun0601/WebDesign.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "webdesign"
+  ],
+  "author": "jhun0601",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/jhun0601/WebDesign/issues"
   },
-  "homepage": "https://github.com/jhun0601/WebDesign#readme"
+  "homepage": "https://github.com/jhun0601/WebDesign#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "hbs": "^4.1.1"
+  },
+  "devDependencies": {
+    "laravel-mix": "^5.0.4"
+  }
 }
